@@ -1,8 +1,41 @@
 #headerName {
   color: white;
   font-family: 'Arial';
-};
+}
+
+.circle, .square, .rectangle {
+  background-color: #ffcfd9;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.rectangle {
+  height: 150px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+body, html {
+  height: 100%;
+}
 
 body {
-  background-color: #424141;
-};
+  background-color: #fff4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
